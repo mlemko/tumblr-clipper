@@ -11,5 +11,5 @@ https://at.tumblr.com/wakasagihimes-pond/710849783488790528/xp4f0r15kgie
 ```
 will be converted into
 ```{url}
-https://www.tumblr.com/staff/709250804982431744
+https://tumblr.com/wakasagihimes-pond/710849783488790528
 ```
