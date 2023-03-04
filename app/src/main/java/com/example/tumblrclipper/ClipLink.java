@@ -53,7 +53,7 @@ public class ClipLink extends Activity {
             sendIntent.putExtra(Intent.EXTRA_TEXT, sendText);
             sendIntent.setType("text/plain");
 
-            Intent shareIntent = Intent.createChooser(sendIntent, null);
+            Intent shareIntent = Intent.createChooser(sendIntent,"Share Tumblr link via:");
             startActivity(shareIntent);
 
         }
