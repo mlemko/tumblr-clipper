@@ -6,10 +6,10 @@ Tumblr Clipper is an application that automatically converts Tumblr app links (*
 
 ## Example
 When sharing links to other apps, select the `Tumblr Clipper` app and a new sharescreen will open with the new link.
-```{url}
-https://at.tumblr.com/staff/hello-esteemed-important-internet-people-you/rlpbkxtmvi5q
+```url
+https://at.tumblr.com/wakasagihimes-pond/710849783488790528/xp4f0r15kgie
 ```
 will be converted into
 ```{url}
-https://tumblr.com/staff/hello-esteemed-important-internet-people-you/
+https://www.tumblr.com/staff/709250804982431744
 ```
