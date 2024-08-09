@@ -42,8 +42,8 @@ public class ClipLink extends Activity {
         String sharedText = intent.getStringExtra(Intent.EXTRA_TEXT);
         if (sharedText != null) // handle the link here
         {
-            int linkStart = sharedText.indexOf("https");
-            int linkEnd = sharedText.lastIndexOf('/');
+            int linkStart = sharedText.indexOf("http");
+            int linkEnd = sharedText.lastIndexOf(' ', linkStart);
             String link = sharedText.substring(linkStart,linkEnd);
             link = link.replace("at.", "");
             String sendText = link.trim();
